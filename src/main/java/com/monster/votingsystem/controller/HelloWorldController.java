@@ -10,4 +10,9 @@ public class HelloWorldController {
     public String hello() {
         return "Hello World!";
     }
+
+    @RequestMapping("/smile")
+    public String haha() {
+        return "(-_-)!";
+    }
 }
